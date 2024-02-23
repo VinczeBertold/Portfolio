@@ -18,7 +18,7 @@ export default function ThemeSwitcher(props: ThemeSwitcherProps) {
   }, [theme]);
 
   return (
-    <label className="flex cursor-pointer gap-2">
+    <label className="md:flex cursor-pointer gap-2 hidden">
       <input
         type="checkbox"
         value={theme || "dark"}
