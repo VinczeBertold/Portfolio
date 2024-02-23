@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import main from "../../public/hero.jpg";
+import main from "../../public/me.jpg";
 import Link from "next/link";
 
 export default function About() {
