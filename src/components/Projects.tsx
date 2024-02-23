@@ -5,25 +5,6 @@ import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-import welleEmail1 from "../../public/welleEmail1.png";
-import welleEmail2 from "../../public/welleEmail2.png";
-
-import eMobility1 from "../../public/eMobility1.png";
-import eMobility2 from "../../public/eMobility2.png";
-
-import game1 from "../../public/game1.png";
-import game2 from "../../public/game2.png";
-import game3 from "../../public/game3.png";
-
-import chatery1 from "../../public/chatery1.png";
-import chatery2 from "../../public/chatery2.png";
-import chateryStandalone from "../../public/chateryStandalone1.jpeg";
-
-import welle1 from "../../public/welle1.png";
-import welle2 from "../../public/welle2.png";
-
-import portfolio1 from "../../public/portfolio1.png";
-
 export default function Projects() {
   return (
     <>
@@ -35,14 +16,12 @@ export default function Projects() {
         viewport={{ once: true }}
       >
         <div className="space-y-3">
-          <h2 className="text-2xl font-bold tracking-tighter">
-            My Projects
-          </h2>
+          <h2 className="text-2xl font-bold tracking-tighter">My Projects</h2>
           <p className="max-w-[800px]">
-            A collection of projects I&apos;ve been working on. I&apos;m always looking
-            learning new things and working on new projects. Have a look at
-            some. Some of these are not public yet, but I&apos;m happy to share more
-            about them.
+            A collection of projects I&apos;ve been working on. I&apos;m always
+            looking learning new things and working on new projects. Have a look
+            at some. Some of these are not public yet, but I&apos;m happy to
+            share more about them.
           </p>
           <p className="max-w-[800px]">
             If you want to see more of my work, you can check out my{" "}
@@ -66,7 +45,7 @@ export default function Projects() {
           <div className="flex flex-col min-w-0 rounded-sm overflow-hidden border max-h-[500px] min-h-[500px]">
             <div className="carousel w-full">
               <div id="slide1-1" className="carousel-item relative w-full">
-                <img src={welleEmail1.src} className="w-full h-[250px]" />
+                <img src="/welleEmail1.png" className="w-full h-[250px]" />
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide1-2" className="btn btn-circle">
                     <FontAwesomeIcon icon={faArrowRight} />
@@ -74,7 +53,7 @@ export default function Projects() {
                 </div>
               </div>
               <div id="slide1-2" className="carousel-item relative w-full">
-                <img src={welleEmail2.src} className="w-full h-[250px]" />
+                <img src="/welleEmail2.png" className="w-full h-[250px]" />
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide1-1" className="btn btn-circle">
                     <FontAwesomeIcon icon={faArrowLeft} />
@@ -119,7 +98,7 @@ export default function Projects() {
           <div className="flex flex-col justify-between min-w-0 rounded-sm overflow-hidden border max-h-[500px] min-h-[500px]">
             <div className="carousel w-full">
               <div id="slide2-1" className="carousel-item relative w-full">
-                <img src={eMobility1.src} className="w-full h-[250px]" />
+                <img src="/eMobility1.png" className="w-full h-[250px]" />
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide2-2" className="btn btn-circle">
                     <FontAwesomeIcon icon={faArrowRight} />
@@ -127,7 +106,7 @@ export default function Projects() {
                 </div>
               </div>
               <div id="slide2-2" className="carousel-item relative w-full">
-                <img src={eMobility2.src} className="w-full h-[250px]" />
+                <img src="/eMobility2.png" className="w-full h-[250px]" />
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide2-1" className="btn btn-circle">
                     <FontAwesomeIcon icon={faArrowLeft} />
@@ -172,7 +151,7 @@ export default function Projects() {
           <div className="flex flex-col min-w-0 rounded-sm overflow-hidden border max-h-[500px] min-h-[500px]">
             <div className="carousel w-full">
               <div id="slide3-1" className="carousel-item relative w-full">
-                <img src={game1.src} className="w-full h-[250px]" />
+                <img src="/game1.png" className="w-full h-[250px]" />
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide3-2" className="btn btn-circle">
                     <FontAwesomeIcon icon={faArrowRight} />
@@ -180,7 +159,7 @@ export default function Projects() {
                 </div>
               </div>
               <div id="slide3-2" className="carousel-item relative w-full">
-                <img src={game2.src} className="w-full h-[250px]" />
+                <img src="/game2.png" className="w-full h-[250px]" />
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide3-1" className="btn btn-circle">
                     <FontAwesomeIcon icon={faArrowLeft} />
@@ -191,7 +170,7 @@ export default function Projects() {
                 </div>
               </div>
               <div id="slide3-3" className="carousel-item relative w-full">
-                <img src={game3.src} className="w-full h-[250px]" />
+                <img src="/game3.png" className="w-full h-[250px]" />
                 <div className="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide3-2" className="btn btn-circle">
                     <FontAwesomeIcon icon={faArrowLeft} />
@@ -271,7 +250,10 @@ export default function Projects() {
           <div className="flex flex-col min-w-0 rounded-sm overflow-hidden border max-h-[500px] min-h-[500px]">
             <div className="carousel w-full">
               <div id="slide4-1" className="carousel-item relative w-full">
-                <img src={chateryStandalone.src} className="w-full h-[250px]" />
+                <img
+                  src="/chateryStandalone1.jpeg"
+                  className="w-full h-[250px]"
+                />
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide4-2" className="btn btn-circle">
                     <FontAwesomeIcon icon={faArrowRight} />
@@ -279,7 +261,7 @@ export default function Projects() {
                 </div>
               </div>
               <div id="slide4-2" className="carousel-item relative w-full">
-                <img src={chatery1.src} className="w-full h-[250px]" />
+                <img src="/chatery1.png" className="w-full h-[250px]" />
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide4-1" className="btn btn-circle">
                     <FontAwesomeIcon icon={faArrowLeft} />
@@ -291,7 +273,7 @@ export default function Projects() {
               </div>
               <div id="slide4-3" className="carousel-item relative w-full">
                 <img
-                  src={chatery2.src}
+                  src="/chatery2.png"
                   className="w-full h-[250px] object-scale-down"
                 />
                 <div className="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -306,10 +288,10 @@ export default function Projects() {
               <p className="text-sm text-gray-500 my-2">
                 This is my passion project. This is a social media platform that
                 lets creative content creators create interactive chat stories.
-                I&apos;m building this because I want to give people a new way to
-                express themselves and share their stories. I&apos;m building this
-                with Next.js, Tailwind CSS, and Supabase. I am really proud of
-                the interactive story editor I built with react-flow.
+                I&apos;m building this because I want to give people a new way
+                to express themselves and share their stories. I&apos;m building
+                this with Next.js, Tailwind CSS, and Supabase. I am really proud
+                of the interactive story editor I built with react-flow.
               </p>
               <div className="flex gap-2 mt-4">
                 <a href="#" className="btn btn-disabled md:px-12 !rounded-sm">
@@ -332,7 +314,7 @@ export default function Projects() {
           <div className="flex flex-col min-w-0 rounded-sm overflow-hidden border">
             <div className="carousel w-full">
               <div id="slide5-1" className="carousel-item relative w-full">
-                <img src={welle1.src} className="w-full h-[250px]" />
+                <img src="/welle1.png" className="w-full h-[250px]" />
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide5-2" className="btn btn-circle">
                     <FontAwesomeIcon icon={faArrowRight} />
@@ -340,7 +322,7 @@ export default function Projects() {
                 </div>
               </div>
               <div id="slide5-2" className="carousel-item relative w-full">
-                <img src={welle2.src} className="w-full h-[250px]" />
+                <img src="/welle2.png" className="w-full h-[250px]" />
                 <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide5-1" className="btn btn-circle">
                     <FontAwesomeIcon icon={faArrowLeft} />
@@ -357,11 +339,11 @@ export default function Projects() {
                 small and medium sized businesses and nonprofits to get online.
                 I offer website design and development services. I build
                 websites with Wordpress or Next.js, Tailwind CSS, and Supabase.
-                I also offer hosting and maintenance services. I&apos;m also working
-                on a tool to create and send and manage ongoing email campaigns.
-                I offer website design and development services to small
-                businesses and nonprofits. I needed an easy way to create and
-                send email campaigns to my clients.
+                I also offer hosting and maintenance services. I&apos;m also
+                working on a tool to create and send and manage ongoing email
+                campaigns. I offer website design and development services to
+                small businesses and nonprofits. I needed an easy way to create
+                and send email campaigns to my clients.
               </p>
               <div className="flex gap-2 mt-4">
                 <a href="#" className="btn btn-disabled md:px-12 !rounded-sm">
@@ -387,7 +369,7 @@ export default function Projects() {
           <div className="flex flex-col min-w-0 rounded-sm overflow-hidden border max-h-[500px] min-h-[500px]">
             <div className="carousel w-full">
               <div id="slide6-1" className="carousel-item relative w-full">
-                <img src={portfolio1.src} className="w-full h-[250px]" />
+                <img src="/portfolio1.png" className="w-full h-[250px]" />
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 top-1/2"></div>
               </div>
             </div>

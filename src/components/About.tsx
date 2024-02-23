@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-import main from "../../public/me.jpg";
 import Link from "next/link";
 
 export default function About() {
@@ -10,7 +9,7 @@ export default function About() {
         <div className="card !rounded-md w-full bg-base-100 shadow-xl">
           <div className="avatar">
             <div className="w-full rounded">
-              <Image src={main} alt="hero" />
+              <Image src="/me.jpg" alt="hero" width={1366} height={768} />
             </div>
           </div>
           <div className="card-body">
@@ -88,8 +87,8 @@ export default function About() {
 
             <p>
               <span className="text-primary">What am I proud of? </span>At
-              Robert Bosch, my standalone project won the company&apos;s internal
-              competition for the best in-house tool of the year.
+              Robert Bosch, my standalone project won the company&apos;s
+              internal competition for the best in-house tool of the year.
             </p>
           </div>
         </div>
