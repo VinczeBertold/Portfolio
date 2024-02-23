@@ -65,7 +65,7 @@ export default function HeroText() {
           className="rounded-md shadow"
         >
           <a
-            href={"cv.pdf"}
+            href={"/cv.pdf"}
             className="btn btn-lg btn-outline !rounded-sm w-full flex items-center justify-center px-10"
             download="CV"
           >
