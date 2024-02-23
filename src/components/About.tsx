@@ -88,7 +88,7 @@ export default function About() {
 
             <p>
               <span className="text-primary">What am I proud of? </span>At
-              Robert Bosch, my standalone project won the company's internal
+              Robert Bosch, my standalone project won the company&apos;s internal
               competition for the best in-house tool of the year.
             </p>
           </div>

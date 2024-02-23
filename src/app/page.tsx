@@ -4,8 +4,8 @@ import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
 import Services from "@/components/Services";
 import WorkAndEducation from "@/components/WorkAndEducation";
-import { faEnvelope, faQuestion } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+export const dynamic = "force-static";
 
 export default function Home() {
   return (

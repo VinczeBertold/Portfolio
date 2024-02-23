@@ -1,4 +1,3 @@
-import { toggleTheme } from "@/lib/actions/toggle_theme";
 import { cookies } from "next/headers";
 import ThemeSwitcher from "./ThemeSwitcher";
 

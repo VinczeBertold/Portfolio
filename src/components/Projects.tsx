@@ -39,9 +39,9 @@ export default function Projects() {
             My Projects
           </h2>
           <p className="max-w-[800px]">
-            A collection of projects I've been working on. I'm always looking
+            A collection of projects I&apos;ve been working on. I&apos;m always looking
             learning new things and working on new projects. Have a look at
-            some. Some of these are not public yet, but I'm happy to share more
+            some. Some of these are not public yet, but I&apos;m happy to share more
             about them.
           </p>
           <p className="max-w-[800px]">
@@ -306,8 +306,8 @@ export default function Projects() {
               <p className="text-sm text-gray-500 my-2">
                 This is my passion project. This is a social media platform that
                 lets creative content creators create interactive chat stories.
-                I'm building this because I want to give people a new way to
-                express themselves and share their stories. I'm building this
+                I&apos;m building this because I want to give people a new way to
+                express themselves and share their stories. I&apos;m building this
                 with Next.js, Tailwind CSS, and Supabase. I am really proud of
                 the interactive story editor I built with react-flow.
               </p>
@@ -357,7 +357,7 @@ export default function Projects() {
                 small and medium sized businesses and nonprofits to get online.
                 I offer website design and development services. I build
                 websites with Wordpress or Next.js, Tailwind CSS, and Supabase.
-                I also offer hosting and maintenance services. I'm also working
+                I also offer hosting and maintenance services. I&apos;m also working
                 on a tool to create and send and manage ongoing email campaigns.
                 I offer website design and development services to small
                 businesses and nonprofits. I needed an easy way to create and

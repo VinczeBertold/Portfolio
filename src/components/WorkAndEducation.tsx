@@ -54,7 +54,7 @@ export default function WorkAndEducation() {
           <div className="timeline-end mb-10">
             <time className="font-mono italic">10.2021 - </time>
             <div className="text-lg font-black">Benefit Büroservice </div>
-            Maintained and developed new features for the company's application
+            Maintained and developed new features for the company&apos;s application
             that handled call center operations. Took part in moving the
             application to a new architecture and to follow the DDD (Domain
             Driven Design) principles.
