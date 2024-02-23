@@ -66,7 +66,7 @@ export default async function Navbar() {
           theme={cookieJar.get("portfolio-theme")?.value || "dark"}
         />
         <a
-          className="btn btn-primary !rounded-sm w-32 hidden md:flex"
+          className="btn btn-primary !rounded-sm w-32 flex"
           href="#contact"
         >
           Contact
