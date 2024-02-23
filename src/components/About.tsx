@@ -46,20 +46,28 @@ export default function About() {
                 <p>German - Beginner</p>
               </div>
             </div>
-            <div className="flex gap-6 my-4">
-              <div className="font-bold">Find me on: </div>
-              <Link
-                href="https://www.linkedin.com/in/bertold-vincze-8944961b7/3"
-                className="link-secondary link"
-              >
-                LinkedIn
-              </Link>
-              <Link
-                href="https://medium.com/@p.vinczebertold"
-                className="link-secondary link"
-              >
-                Medium
-              </Link>
+            <div className="flex gap-4 my-4">
+              <div className="font-bold">Look at my: </div>
+              <div className="flex flex-col">
+                <Link
+                  href="https://github.com/VinczeBertold"
+                  className="link-secondary link"
+                >
+                  GitHub profile
+                </Link>
+                <Link
+                  href="https://medium.com/@p.vinczebertold"
+                  className="link-secondary link"
+                >
+                  Medium articles
+                </Link>
+                <Link
+                  href="https://about.me/bertoldvincze"
+                  className="link-secondary link"
+                >
+                  About.me profile
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -76,6 +84,12 @@ export default function About() {
               player and I am always open to new ideas and suggestions. I am a
               hardworking and dedicated person and I always strive to achieve
               the best results in everything I do.
+            </p>
+
+            <p>
+              <span className="text-primary">What am I proud of? </span>At
+              Robert Bosch, my standalone project won the company's internal
+              competition for the best in-house tool of the year.
             </p>
           </div>
         </div>

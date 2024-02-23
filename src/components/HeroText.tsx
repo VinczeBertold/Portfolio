@@ -9,7 +9,7 @@ export default function HeroText() {
         initial={{ x: -100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
-        className="text-4xl tracking-tight leading-10 font-extrabold text-primary-content sm:text-5xl sm:leading-none md:text-6xl"
+        className="text-4xl tracking-tight leading-10 font-extrabold text-base-content sm:text-5xl sm:leading-none md:text-6xl"
       >
         Hello, I am
         <br />
@@ -65,8 +65,9 @@ export default function HeroText() {
           className="rounded-md shadow"
         >
           <a
-            href="#"
+            href={"cv.pdf"}
             className="btn btn-lg btn-outline !rounded-sm w-full flex items-center justify-center px-10"
+            download="CV"
           >
             Download CV
           </a>

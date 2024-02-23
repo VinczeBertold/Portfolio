@@ -47,24 +47,23 @@ export default async function Navbar() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl hidden md:flex text-center">Bertold Vincze</a>
+        <a className="btn btn-ghost text-xl hidden md:flex text-center">
+          Bertold Vincze
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Services</a>
-          </li>
-          <li>
             <a href="#about">About</a>
           </li>
           <li>
-            <a>Work Experience</a>
+            <a href="#work-education">Work & Education</a>
           </li>
           <li>
-            <a>Education</a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <a>Projects</a>
+            <a href="#projects">Projects</a>
           </li>
         </ul>
       </div>
@@ -72,7 +71,12 @@ export default async function Navbar() {
         <ThemeSwitcher
           theme={cookieJar.get("portfolio-theme")?.value || "dark"}
         />
-        <a className="btn btn-primary !rounded-sm w-32 hidden md:flex">Contact</a>
+        <a
+          className="btn btn-primary !rounded-sm w-32 hidden md:flex"
+          href="#contact"
+        >
+          Contact
+        </a>
       </div>
     </div>
   );

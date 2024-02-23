@@ -1,15 +1,20 @@
 import { cookies } from "next/headers";
 import type { Metadata } from "next";
 
-import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/layout/Navbar";
 
-export const dynamic = "force-dynamic"; // defaults to auto
+import { Inter } from "next/font/google";
+
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+
+import { Toaster, toast } from "sonner";
 
 const inter = Inter({ subsets: ["latin"] });
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -30,7 +35,17 @@ export default async function RootLayout({
     >
       <body className={inter.className}>
         <Navbar />
-        {children}
+        <div className="relative">
+          {children}
+          <a
+            href="#"
+            className="fixed bottom-4 left-4 btn btn-square bg-black text-white"
+          >
+            <FontAwesomeIcon icon={faArrowUp} />
+          </a>
+        </div>
+        <Footer />
+        <Toaster richColors />
       </body>
     </html>
   );
